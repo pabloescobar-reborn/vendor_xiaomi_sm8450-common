@@ -237,6 +237,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/media_codecs_with_dolby_taro.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_with_dolby_taro.xml
 
 PRODUCT_PACKAGES += \
+    libldacBT_abr \
+    libldacBT_enc \
+    liblhdc \
+    liblhdcBT_enc \
     vendor.qti.diaghal-V1-ndk \
     eglSubDriverAndroid \
     libEGL_adreno \
